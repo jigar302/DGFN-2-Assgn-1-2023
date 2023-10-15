@@ -13,7 +13,7 @@ This must test each of your Area/Volume functions, with a least 3 examples for e
 As this stands it will NOT work with your A_V_calc.py file.
 '''
 
-import A_V_calc  # Import your Calculator class
+import A_V_calc  # Import your  class
 
 def test_calculate_area_rectangle(): # Test for area of rectangle
     assert A_V_calc.calculate_area_of_rectangle(4,5) == 20.0
